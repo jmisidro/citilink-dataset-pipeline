@@ -1,0 +1,21 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache and byte-code files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Local pipeline directories (contain confidential data / intermediate results)
+inputs/
+outputs/
+logs/
+
+# OS/System files
+.DS_Store
